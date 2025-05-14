@@ -1,0 +1,87 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 80px;
+  margin-top: 100px;
+  transition: background-color 0.5s ease;
+  height: 100%;
+  margin: 0;
+  line-height: 2; 
+}
+
+/* Style for buttons */
+.button {
+  padding: 20px 50px;
+  margin: 10px;
+  border: 4px solid black;
+  border-color: black;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  transition: transform 0.2s;
+  line-height: 2; 
+}
+
+/* Centered navigation tab */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #2c3e50, #4ca1af); /* smooth dark-to-blue gradient */
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar h1 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+/* Button colors based on their IDs */
+#grey {
+  background-color: grey;
+}
+
+#white {
+  background-color: white;
+  color: black; /* dark text on white */
+}
+
+#yellow {
+  background-color: gold;
+  color: black;
+  
+}
+
+#lightblue {
+  background-color: lightblue;
+}
+
+#purple {
+  background-color: rebeccapurple;
+}
+
+/* Button hover effect */
+.button:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background: linear-gradient(to right, #2c3e50, #4ca1af); /* smooth dark-to-blue gradient */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 100px; /* space above footer */
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+}
